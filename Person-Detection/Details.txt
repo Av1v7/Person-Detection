@@ -1,0 +1,10 @@
+Age,First Name,Last Name,City,Profession,NumberOfKids
+16,Aviv,Shemesh,Ganei Tikva,Studant,2
+30,John,Doe,New York,Engineer,1
+28,Jane,Smith,Los Angeles,Teacher,3
+35,Michael,Johnson,Chicago,Doctor,3
+25,Emily,Brown,New York,Artist,4
+42,David,Miller,Seattle,Architect,2
+37,Susan,Williams,Miami,Lawyer,0
+22,Andrew,Lee,San Francisco,Software Engineer,0
+45,Linda,Clark,Dallas,Accountant,2
