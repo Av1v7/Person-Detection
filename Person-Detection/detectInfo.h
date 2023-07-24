@@ -1,5 +1,5 @@
-#ifndef MEMORY_H
-#define MEMORY_H
+#ifndef DETECT_INFO_H
+#define DETECT_INFO_H
 
 #include <string>
 #include <vector>
@@ -14,6 +14,8 @@ struct PersonDetails {
 
 vector<PersonDetails> readDataFromCSV(const string& filename);
 
-void searchPerson(const vector<PersonDetails>& data);
+void searchByID(const vector<PersonDetails>& data);
+
+void searchByFirstNameAndLastName(const vector<PersonDetails>& data);
 
 #endif

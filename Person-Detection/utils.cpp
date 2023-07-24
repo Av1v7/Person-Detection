@@ -1,5 +1,6 @@
 #include "utils.h"
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -12,5 +13,15 @@ void logLine(const string& message) {
 }
 
 void getStringValue(string& message) {
-    cin >> message;
+    getline(cin, message);
+}
+
+void getIntValue(int& value) {
+    string input;
+    getline(cin, input);
+    stringstream ss(input);
+    if (!(ss >> value)) {
+        logLine("Invalid input. Please enter a valid integer.");
+        value = 0;
+    }
 }

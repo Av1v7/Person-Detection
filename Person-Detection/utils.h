@@ -5,10 +5,12 @@
 
 using namespace std;
 
-void logString(const std::string& message);
+void logString(const string& message);
 
 void logLine(const string& message);
 
 void getStringValue(string& message);
+
+void getIntValue(int& value);
 
 #endif

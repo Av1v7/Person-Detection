@@ -1,10 +1,16 @@
-Age,First Name,Last Name,City,Profession,NumberOfKids
-16,Aviv,Shemesh,Ganei Tikva,Studant,2
-30,John,Doe,New York,Engineer,1
-28,Jane,Smith,Los Angeles,Teacher,3
-35,Michael,Johnson,Chicago,Doctor,3
-25,Emily,Brown,New York,Artist,4
-42,David,Miller,Seattle,Architect,2
-37,Susan,Williams,Miami,Lawyer,0
-22,Andrew,Lee,San Francisco,Software Engineer,0
-45,Linda,Clark,Dallas,Accountant,2
+ID,Age,First Name,Last Name,City,Profession,Number of kids
+1,16,Aviv,Shemesh,Ganei Tikva,Student,2
+2,30,John,Doe,New York,Engineer,1
+3,28,Jane,Smith,Los Angeles,Teacher,3
+4,35,Michael,Johnson,Chicago,Doctor,3
+5,25,Emily,Brown,New York,Artist,4
+6,42,David,Miller,Seattle,Architect,2
+7,37,Susan,Williams,Miami,Lawyer,0
+8,22,Andrew,Lee,San Francisco,Software Engineer,0
+9,45,Linda,Clark,Dallas,Accountant,2
+10,40,Robert,White,Houston,Manager,1
+11,33,Sarah,Anderson,Boston,Designer,1
+12,27,Christopher,Walker,Denver,Writer,0
+13,39,Karen,Scott,Phoenix,Nurse,2
+14,31,Daniel,Evans,San Diego,Photographer,1
+15,29,Amanda,Harris,Portland,Musician,3
