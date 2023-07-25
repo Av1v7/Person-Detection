@@ -13,4 +13,6 @@ void getStringValue(string& message);
 
 void getIntValue(int& value);
 
+void sleepWithDots(string message, int numDots, int milliseconds);
+
 #endif

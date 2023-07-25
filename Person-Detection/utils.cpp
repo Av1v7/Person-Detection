@@ -1,6 +1,7 @@
-#include "utils.h"
 #include <iostream>
 #include <sstream>
+#include <thread>
+#include "utils.h"
 
 using namespace std;
 
@@ -24,4 +25,13 @@ void getIntValue(int& value) {
         logLine("Invalid input. Please enter a valid integer.");
         value = 0;
     }
+}
+
+void sleepWithDots(string message,int numDots, int milliseconds) {
+    logString(message);
+    for (int i = 0; i < numDots; ++i) {
+        this_thread::sleep_for(chrono::milliseconds(milliseconds));
+        logString(".");
+    }
+    logLine("");
 }
